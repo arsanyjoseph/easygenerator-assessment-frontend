@@ -1,5 +1,6 @@
 import { getProfile } from "@/app/actions/auth";
 import { Box } from "@mui/material";
+
 export const dynamic = 'force-dynamic';
 
 export const metadata = {

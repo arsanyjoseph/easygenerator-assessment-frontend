@@ -1,5 +1,7 @@
 import { Box, Typography } from "@mui/material"
 
+export const dynamic = 'force-dynamic'
+
 const WelcomePage = () => {
     return (
         <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" minHeight="75vh" >
