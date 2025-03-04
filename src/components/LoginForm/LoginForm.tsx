@@ -49,7 +49,7 @@ const LoginForm = () => {
     return (
         <Box display="flex" flexDirection="column" alignItems="center" gap={4} width={'100%'} >
             <Typography variant="h4">Welcome back!</Typography>
-            <Typography variant="caption" >Don't have an account?<Link href='/register'>Register</Link></Typography>
+            <Typography variant="caption" >Don&apos;t have an account?<Link href='/register'>Register</Link></Typography>
             <form className='loginForm' onSubmit={handleSubmit(onSubmit)} >
                 <Controller
                     name="username"
