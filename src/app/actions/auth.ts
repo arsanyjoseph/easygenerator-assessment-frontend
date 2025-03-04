@@ -3,7 +3,6 @@ import { ApiService } from "@/utils/apiService"
 import { SuccessLogin } from "@/types/auth";
 import { deleteCookie, getCookie, setCookie } from "@/utils/cookieManager";
 import { User } from "@/types/user";
-import { AxiosError } from "axios";
 
 export const login = async ({ username, password }: { username: string, password: string }) => {
     const apiService = ApiService.getInstance()

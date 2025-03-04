@@ -33,7 +33,7 @@ const RegisterForm = () => {
 
     const onSubmit = (data: { name: string, email: string, password: string, confirmPassword: string }) => {
         register(data)
-            .then(res => {
+            .then(() => {
                 toast.success('Successfully Registered')
                 router.push('/')
             })

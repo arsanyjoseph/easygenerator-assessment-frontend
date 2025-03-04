@@ -1,9 +1,5 @@
 import axios, { AxiosInstance } from 'axios'
 
-type ApiConfig = {
-    isClient: boolean
-}
-
 export class ApiService {
     private static instance: ApiService;
     private axiosInstance: AxiosInstance;
