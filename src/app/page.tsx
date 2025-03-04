@@ -1,6 +1,9 @@
 import Header from '@/components/Headers/Header/Header';
 import { Box, Typography } from '@mui/material';
 import { getProfile } from './actions/auth';
+
+export const dynamic = 'force-dynamic'
+
 const HomePage = async () => {
   const user = await getProfile()
   return (
