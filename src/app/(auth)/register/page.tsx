@@ -2,6 +2,8 @@ import Image from 'next/image'
 import { Box } from "@mui/material"
 import RegisterForm from "@/components/RegisterForm/RegisterForm"
 
+export const dynamic = 'force-dynamic'
+
 const RegisterPage = () => {
     return (
         <Box display="flex" flexDirection="row" justifyContent="space-between" alignItems="center" height="100vh" >

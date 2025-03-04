@@ -2,6 +2,8 @@ import LoginForm from "@/components/LoginForm/LoginForm"
 import { Box } from "@mui/material"
 import Image from 'next/image'
 
+export const dynamic = 'force-dynamic'
+
 const LoginPage = () => {
     return (
         <Box display="flex" flexDirection="row-reverse" justifyContent="space-between" alignItems="center" height="100vh" >

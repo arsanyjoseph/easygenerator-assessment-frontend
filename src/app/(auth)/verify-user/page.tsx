@@ -2,6 +2,8 @@ import { verify } from "@/app/actions/auth"
 import { Box, CircularProgress, Typography } from "@mui/material"
 import { redirect } from "next/navigation"
 
+export const dynamic = 'force-dynamic'
+
 type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>
 
 const VerifyPage = async (props: {
